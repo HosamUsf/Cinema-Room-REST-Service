@@ -1,4 +1,4 @@
-package cinema;
+package cinema.models;
 
 public class Seat {
     private int row;

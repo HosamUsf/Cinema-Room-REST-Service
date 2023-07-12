@@ -1,4 +1,8 @@
-package cinema;
+package cinema.Services;
+
+import cinema.models.Cinema;
+import cinema.models.Purchase;
+import cinema.models.Stats;
 
 import java.util.ArrayList;
 import java.util.List;

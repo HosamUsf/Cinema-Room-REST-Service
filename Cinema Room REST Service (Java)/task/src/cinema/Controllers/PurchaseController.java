@@ -1,5 +1,9 @@
-package cinema;
+package cinema.Controllers;
 
+import cinema.Services.Service;
+import cinema.models.Purchase;
+import cinema.models.Ticket;
+import cinema.models.Token;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -7,7 +11,6 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 import java.util.Map;
-import java.util.UUID;
 
 @RestController
 
